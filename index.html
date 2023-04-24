@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="icon" href="./img/port icon.png">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Portfólio</title>
+</head>
+<body>
+
+    <div class="header">
+        <a href="./index.html"><h1>Home <i class="fa-solid fa-house"></i></h1></a>
+        <a href="./sobremim.html"><h1>Sobre mim <i class="fa-solid fa-user"></i></h1></a>
+        <a href="./curriculo.html"><h1>Currículo <i class="fa-solid fa-folder-open"></i></h1></a>
+        <a href="./projetos.html"><h1>Projetos <i class="fa-solid fa-layer-group"></i></h1></a>
+    </div>
+
+    <!-- Modal para a versão mobile -->
+    <button id="myBtn"><i class="fa-solid fa-bars"></i></button>
+
+    <div id="myModal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <a href="./index.html">Home <i class="fa-solid fa-house"></i></a>
+            <br><br>
+            <a href="./sobremim.html">Sobre mim <i class="fa-solid fa-user"></i></a>
+            <br><br>
+            <a href="./curriculo.html">Currículo <i class="fa-solid fa-folder-open"></i></a>
+            <br><br>
+            <a href="./projetos.html">Projetos <i class="fa-solid fa-layer-group"></i></a>
+        </div>
+    </div>  
+    <!-- Fim do modal para a versão mobile -->    
+
+    <div class="containerHome">
+        <div style="margin-bottom: 50px;">
+            <h1 style="color: white;">Você está a um passo de conhecer um</h1><h1 style="color: springgreen; text-shadow: 0px 0px 15px springgreen;"> Desenvolvedor <span style="text-decoration: line-through;">Jonas</span> Junior <i class="fa-solid fa-computer"></i></h1>
+        </div>
+        <hr>
+
+        <div style="margin-top: 50px; color: white; font-weight: normal">
+            <h1>Olá! Tudo bem? É um prazer ter você por aqui e eu gostaria de me apresentar.</h1><br>
+            <h1>Sou um <span style="color: springgreen; text-shadow: 0px 0px 15px springgreen;">Desenvolvedor Junior</span> e iniciei a minha jornada na carreira tech recentemente. Você quer saber um pouco mais sobre mim? <span><a href="./sobremim.html" style="color: springgreen; text-shadow: 0px 0px 15px springgreen;">clique aqui</a></span>.</h1>
+        </div>
+    </div>
+    
+    <script src="./script.js"></script>
+</body>
+</html>

@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="icon" href="./img/port icon.png">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Portfólio</title>
+</head>
+<body>
+
+    <div class="header">
+        <a href="./index.html"><h1>Home <i class="fa-solid fa-house"></i></h1></a>
+        <a href="./sobremim.html"><h1>Sobre mim <i class="fa-solid fa-user"></i></h1></a>
+        <a href="./curriculo.html"><h1>Currículo <i class="fa-solid fa-folder-open"></i></h1></a>
+        <a href="./projetos.html"><h1>Projetos <i class="fa-solid fa-layer-group"></i></h1></a>
+    </div>
+
+     <!-- Modal para a versão mobile -->
+    <button id="myBtn"><i class="fa-solid fa-bars"></i></button>
+
+    <div id="myModal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <a href="./index.html">Home <i class="fa-solid fa-house"></i></a>
+            <br><br>
+            <a href="./sobremim.html">Sobre mim <i class="fa-solid fa-user"></i></a>
+            <br><br>
+            <a href="./curriculo.html">Currículo <i class="fa-solid fa-folder-open"></i></a>
+            <br><br>
+            <a href="./projetos.html">Projetos <i class="fa-solid fa-layer-group"></i></a>
+        </div>
+    </div>  
+    <!-- Fim do modal para a versão mobile -->    
+
+    <div class="containerSobre">
+        <div>
+            <h1 style="color: springgreen; text-shadow: 0px 0px 15px springgreen;">Sobre Mim</h1>
+        </div><br>
+        <hr>
+
+        <div style="margin-top: 30px; color: white; font-weight: normal; line-height: 30px;">
+            <h2>Meu nome é Jonas Júnior, tenho 21 anos de idade, moro em Lauro de Freitas/BA e estou cursando o 3º semestre de Análise e Desenvolvimento de Sistemas. Minha jornada na área da programação começou em janeiro de 2022, aonde eu passei a pesquisar e estudar sobre a área por conta própria em casa, até que finalmente ingressei no curso de ADS em fevereiro, cerca de 1 mês depois.</h2><br>
+            
+            <h2>Durante o ano de 2022 eu consegui aprender diversas tecnologias diferentes, como HTML, CSS, JavaScript, jQuery e Bootstrap e, com esses conhecimentos, pude desenvolver diversos projetos, tanto acadêmicos, como pessoais, aprimorando e me aprofundando cada vez mais nessas ferramentas.<h2><br>
+        <hr>
+
+        <div style="margin: 28px 0px; color: white; font-weight: normal;">
+            <h2 style="color: springgreen; text-shadow: 0px 0px 15px springgreen; margin-bottom: 10px;">Acesse minhas redes:</h2>
+
+            <div style="display: flex; justify-content: space-around;">
+                <a href="https://www.linkedin.com/in/jonas-jr-789968216/" target="_blank">
+                    <button id="linkedin">Linkedin <i class="fa-brands fa-linkedin"></i></button>
+                </a>
+                <a href="https://github.com/JonasJrr" target="_blank">
+                    <button id="github">GitHub <i class="fa-brands fa-github"></i></button>
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <script src="./script.js"></script>
+</body>
+</html>
